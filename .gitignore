@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/.venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Build output
+dist/
+frontend/dist/
+
+# Editors
+.vscode/
+.idea/
